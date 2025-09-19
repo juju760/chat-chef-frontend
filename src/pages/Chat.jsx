@@ -17,7 +17,6 @@ const Chat = ({ingredientList}) => {
 
   const hadleChange = (event) => {
     const { value } = event.target;
-    console.log("value==>", value);
     setValue(value);
   };
 
